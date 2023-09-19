@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giray's Personal Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<header>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/jerome-low-resolution-logo-color-on-transparent-background.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contacts</a></li>
+                <i class='bx bx-x'  onclick="closeMenu()"></i>
+            </ul>
+            <i class='bx bx-menu' onclick="openMenu()"></i>
+        </nav>
+    </div>
+        <div class="head-text">
+            <p>Computer Programmer</p>
+            <h1>Hi, I'm <span> Jerome V. Giray</span></h1>
+            <h2>Grade 12 - ICT</h2>
+        </div>
+</div>
+</header>
+<section>
+<!-------------------about----------------->
+<div id="about-me">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <h1 class="subtitle">About Me</h1>
+                <p>Jerome V. Giray is a passionate and committed computer programmer who constantly finds ways to improve his coding skills. Jerome has developed his abilities to become a good coder and problem solver through years of practical experience and a background in computer science. He is knowledgeable about several different programming languages, cutting-edge technology, and website development processes.
+                   Jerome's constant learning and flexibility show his dedication to staying at the forefront of the rapidly changing digital industry. He enjoys a challenge and constantly comes up with sophisticated, effective answers to difficult issues. Jerome is a visionary who envisions a future in which technology enhances and empowers life in addition to being a coder. Jerome approaches whatever he does with enthusiasm, knowledge, and a forward-looking perspective, whether he is coding, working with cross-functional teams, or coaching budding programmers. 
+                   </p>     
+            </div>      
+            <div class="about-col-2">
+                    <img src="images/jarome.png" alt="">
+              </div>
+                <div class="tab-title">
+                    <p class="tablinks active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                    <p class="tablinks" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tabcontents active-tab" id="skills">
+                    <ul>
+                        <li><span>Computer Programmer</span><br> Designing Web/App Interfaces</li>
+                        <li><span>Web Development</span><br> Web Development</li>
+                        <li><span>Database Developer </span><br> Database Development</li>
+                    </ul>
+                </div>
+                <div class="tabcontents" id="experience">
+                    <ul>
+                        <li><span>2045 - Current</span><br> Head Web Developer at Tindahan ni Aling Nena Web Development</li>
+                        <li><span>2031 - 2044</span><br> Junior App Developer at Russ & KD Company </li>
+                        <li><span>2026 - 2030</span><br> Database Developer at Kyle & Julius Associates</li>
+                    </ul>
+                </div> 
+                <div class="tabcontents" id="education">
+                    <ul>
+                        <li><span>2024 - 2028</span><br> BS in Computer Science in STI Colleges</li>
+                        <li><span>2019 - 2024</span><br> Candon National High School</li>
+                        <li><span>2018 - 2019</span><br> Kaypian National High School </li>
+                        <li><span>2015 - 2018</span><br> Project 3 Elementary School</li>
+                        <li><span>2010 - 2015</span><br> Laoang 1 Elementary School</li>
+                    </ul>
+             </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<main>
+<!-----------------portfolio-------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Works</h1> 
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.png" alt="">
+                <div class="layer">
+                    <h3>Basic Calculator</h3>
+                    <p>
+                        This is a fully functional caculator that can solve basic mathematical equation. This is for educational use only.
+                    </p>
+                    <a href="cl.html"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+         
+            <div class="work">
+                <img src="images/work2.png" alt="">
+                 <div class="layer">
+                      <h3>Grade System</h3>
+                    <p>
+                    This is a fully functional calculator, used to compute the grades of grade 11 students. This is for educational use only.
+                    </p>
+                    <a href="sample.html"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.png" alt="">
+                <div class="layer">
+                    <h3>Body Fat Calculator</h3>
+                    <p>
+                    This is a fully functional calculator designed to compute the total body fats in our body. This is for educational use only.
+                    </p>
+            
+                    <a href="bodyfatcalcu.html"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div> 
+        </div> 
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+</main>
+
+<section>
+<!------------------contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class='bx bxs-paper-plane' ></i>jeromegiray99@gmail.com</p>
+                <p><i class='bx bxs-phone'></i>091235678975</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100072267588591"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://twitter.com/"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://www.linkedin.com"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://www.instagram.com"><i class='bx bxl-instagram' ></i></a>
+                    <a href="file/Oracle-Database-11g_SQL_Fundamentals_I_E.pdf" download class="btn btn2">Download Files</a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<footer>
+    <div class="copyright">
+        <p>Copyright Jerome<i class='bx bxs-heart'></i> Made with by Basic Tutorial</p>
+    </div>
+</footer>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tablinks");
+    var tabcontents = document.getElementsByClassName("tabcontents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function  openMenu(){
+        sidemenu.style.right = "0";
+
+    }
+    function  closeMenu(){
+        sidemenu.style.right = "-200px";
+        
+    }
+    
+</script>
+
+</body>
+</html>
